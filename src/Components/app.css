@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+    color: white;
+}
+
+#mainContainer{
+    width: 100dvw;
+    height: fit-content;
+    background-color: black;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    border-bottom: 1px solid white;
+    padding: 1%;
+}
+
+#header div{
+    margin: 0 2%;
+}
+
+
+#title{
+
+    color: white;
+    height: 100dvh;
+}
