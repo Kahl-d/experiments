@@ -2,31 +2,190 @@
     border: 0;
     margin: 0;
     padding:0;
-    color: white;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#quadrantContainer{
+    width: 100dvw;
+    height: 100dvh;
+    position: relative;
+    background: 
+        /* Vertical lines */
+        repeating-linear-gradient(to right, #e0e0e0, #e0e0e0 1px, transparent 1px, transparent 10dvw),
+
+        /* Horizontal lines */
+        repeating-linear-gradient(to bottom, #e0e0e0, #e0e0e0 1px, transparent 1px, transparent 10dvh);
+}
+
+
+.origin {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    top: 80%; /* Assuming the origin is at center */
+    left: 20%; 
+}
+#x-axis, #y-axis {
+    position: absolute;
+    background: black;
+    
+}
+
+#x-axis {
+    height: 2px;
+    width: 100%;
+    top: 80%; /* This places it in the center. Adjust as needed */
+}
+
+#y-axis {
+    width: 2px;
+    height: 100%;
+    left: 20%; /* This places it in the center. Adjust as needed */
+}
+
+#x-axis::before, #x-axis::after,
+#y-axis::before, #y-axis::after {
+    content: "";
+    position: absolute;
+    background: black;
+}
+
+#x-axis::before, #x-axis::after {
+    height: 10px;
+    width: 2px;
+}
+
+#x-axis::before { left:10%; } /* Marking at -1 */
+#x-axis::after  { left:30%; } /* Marking at +1 */
+
+
+#y-axis::before, #y-axis::after {
+    width: 10px;
+    height: 2px;
+}
+
+#y-axis::before { top: 70%; } /* Marking at +1 */
+#y-axis::after  { top: 90%; } /* Marking at -1 */
+
+
+.quadrants{
+    border: 1px solid black;
+    position: absolute;
+}
+
+#minusx{
+    width: 20%;
+    height: 80%;
+    border-top: 0;
+    border-bottom:0;
+}
+
+#minusy{
+    width: 80%;
+    height: 20%;
+    bottom: 0;
+    right: 0;
+    border-left: 0;
+}
+#minusxy{
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+
+
 }
 
 #mainContainer{
-    width: 100dvw;
-    height: fit-content;
-    background-color: black;
-}
-#header{
-    display: flex;
-    width: 100vw;
-    flex-direction: row;
-    justify-content: center;
-    position: fixed;
-    border-bottom: 1px solid white;
-    padding: 1%;
+    width: 80dvw;
+    height: 80dvh;
+    /* background-color: black; */
+    position: absolute;
+    right: 0;
+    
+    
 }
 
-#header div{
-    margin: 0 2%;
+#mainContainer div{
+    /* border: 1px solid white; */
+    position: absolute;
+    border: 1px solid black;
+}
+
+#hi{
+    width: calc(100%/3);
+    height: 40%;
+    background-color: rgb(255, 227, 194, 0.5);
+    bottom: 0;
+}
+
+#hi2{
+    width: calc(100%/6);
+    height: 20%;
+    bottom: 0;
+    left: calc(200%/6);
+    background-color: rgb(255, 227, 194, 0.5);
+    border-left: 0 !important;
+
+}
+
+#journeyBack{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    border: 0 !important;
+    border-bottom: 1px solid black !important;
+}
+.journey{
+    height: 20%;
+    background-color: rgb(127, 255, 212, 0.5);
+    border-bottom:0 !important ;
+}
+
+#journey1{
+    width: calc(400%/6) ;
+    height: 20%;
+    right: 0;
+    bottom: 20%;
+}
+#journey2{
+    width: calc(300%/6);
+    height: 20%;
+    right: 0;
+    bottom: 0;
+    border-top: 0 !important;
+}
+
+#work{
+    position: absolute;
+    width: calc(300%/6);
+    height: 20%;
+    bottom: 40%;
+}
+
+#project1{
+    width: calc(100%/6);
+    height: 20%;
+    left: calc(200%/6);
+    border-right: 0 !important;
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+#project2{
+    width: calc(300%/6);
+    height: 60%;
+    right: 0;
+    background-color: rgb(138, 43, 226, 0.5);
+
+}
+
+#interests{
+    width: calc(300%/6);
+    bottom: 60%;
+    height: 20%;
 }
 
 
-#title{
 
-    color: white;
-    height: 100dvh;
-}

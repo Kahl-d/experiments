@@ -1,11 +1,11 @@
 import React from "react";
-import About from "./Components/About";
+import Jigsaw from "./Components/Jigsaw";
 
 const App = ()=>{
 
 
     return(
-        <About/>
+        <Jigsaw/>
     );
 };
 
