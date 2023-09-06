@@ -30,7 +30,7 @@
 
 #lowerContainer{
     width: 96%;
-    height: 65%;
+    height: 60%;
     display: flex; 
     flex-direction: row;
     justify-content: space-evenly; 
@@ -38,24 +38,105 @@
 }
 
 .upperContainers, .lowerContainers{
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+#upperRight{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+
+#bioLeft{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+}
+
+#bioRight{
+    width: 80%;
+    height: 100%;
     background-color: white;
     border-radius: 1em;
 }
 
-#upperLeft{
-    width: 60%;
-    height: 100%;
-}
 
-#upperRight{
+
+
+
+#upperLeft{
     width: 30%;
     height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#connectRight{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1em;
+
+}
+
+#education{
+    flex-grow: 2;
+}
+
+#experience{
+    flex-grow: 1;
+}
+
+.edContainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
 }
 
 #lowerLeft{
     width: 30%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em;
 }
+
+.edHead{
+    border-bottom: 1px solid black;
+    font-size: x-large;
+}
+
+.lists{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.items1{
+    font-size: medium;
+}
+
+.items2{
+    font-size: small;
+}
+
+
 
 #lowerMiddle{
     width: 20%;
@@ -69,4 +150,13 @@
     height: 100%;
     border-radius: 1em 1em 0 0;
 }
+
+.lists img{
+    max-height: 50px;
+    
+}
+
+
+
+
 
