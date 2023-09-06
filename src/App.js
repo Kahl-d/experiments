@@ -1,11 +1,12 @@
 import React from "react";
-import Jigsaw from "./Components/Jigsaw";
+import Portfolio from "./Components/Portfolio";
+// import Jigsaw from "./Components/Jigsaw";
 
 const App = ()=>{
 
 
     return(
-        <Jigsaw/>
+        <Portfolio />
     );
 };
 
