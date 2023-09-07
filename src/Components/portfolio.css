@@ -5,6 +5,10 @@
     border: none;
 }
 
+div img{
+    max-width: 80%;
+}
+
 #mainContainer{
     width: 100dvw;
     height: 100dvh;
@@ -47,7 +51,7 @@
     height: 100%;
     display: flex;
     background-color: transparent;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     align-items: center;
     justify-content: space-between;
     /* background-color: black; */
@@ -57,22 +61,40 @@
 #bioLeft{
     width: 20%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 1em;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #bioRight{
     width: 80%;
     height: 100%;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 1em;
+    display: flex;
+    flex-direction: row;
 }
 
+#bioRLeft{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
 
+#bioRMiddle{
 
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
 
-
+#bioRRight{
+    width: 30%;
+    height: 100%;
+}
 #upperLeft{
     width: 30%;
     height: 80%;
@@ -142,8 +164,38 @@
     width: 20%;
     height: 90%;
     background-color: transparent;
-    border: 1px solid white;
+    border: 0px solid white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
+#lowerMiddle div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lowerMiddle span{
+    margin: 0 0 1em 0;
+}
+
+#skillHead{
+    font-size: x-large;
+}
+
+.img2{
+    width: 50%;
+}
+
+.img3{
+    width: 50%;
+}
+
+
 
 #lowerRight{
     width: 30%;
@@ -151,10 +203,12 @@
     border-radius: 1em 1em 0 0;
 }
 
-.lists img{
+.img1{
     max-height: 50px;
+    margin-right: 0.5em;
     
 }
+
 
 
 

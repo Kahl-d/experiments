@@ -1,5 +1,7 @@
 import React from "react";
 import '../Components/portfolio.css'
+import reactImg from './output-onlinegiftools.gif';
+import dataViz from './data-visualization.png';
 
 
 const Portfolio = ()=>{
@@ -12,8 +14,16 @@ const Portfolio = ()=>{
                 <div id="connectRight">Connect</div>
             </div>
                 <div id="upperRight" className="upperContainers">
-                    <div id="bioLeft">Code</div>
-                    <div id="bioRight">Bio</div>
+                    <div id="bioLeft">
+                        <img id="qr" src="https://i.ibb.co/wLfYJCs/My-Instagram-QR-Code.png"/>
+                    </div>
+                    <div id="bioRight">
+                        <div id="bioRLeft"></div>
+                        <div id="bioRMiddle"></div>
+                        <div id="bioRRight">
+                            
+                        </div>
+                    </div>
                 </div>
                 
             </div>
@@ -23,7 +33,7 @@ const Portfolio = ()=>{
                         <div className="edHead">Education</div>
                         <div className="lists"> 
                             <div className="listDiv">
-                            <span className="items1">Laxmi Nivas Mittal</span>
+                            <span className="items1">The LNM</span>
                             <span className="items1">Institute of Information Technology</span>
 
                             <span className="items2">Bachelor of Technology</span>
@@ -54,7 +64,19 @@ const Portfolio = ()=>{
                         </div>
                     </div>
                 </div>
-                <div id="lowerMiddle" className="lowerContainers">Skills</div>
+                <div id="lowerMiddle" className="lowerContainers">
+                    <span id="skillHead">Skills</span>
+                    <div>
+                        <img className="img2" src={reactImg}/>
+                        <span>React</span>
+                    </div>
+
+                    <div>
+                        <img className="img3" src={dataViz}/>
+                        <span>Data Visualization</span>
+                    </div>
+
+                </div>
                 <div id="lowerRight" className="lowerContainers">Projects</div>
             </div>
         </div>
