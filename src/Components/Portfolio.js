@@ -77,7 +77,65 @@ const Portfolio = ()=>{
                     </div>
 
                 </div>
-                <div id="lowerRight" className="lowerContainers">Projects</div>
+                <div id="lowerRight" className="lowerContainers">
+                
+                <div id="project1" className="projects">
+                    <div className="edHead">Information Retrieval System</div>
+                    <div className="projectDesc">An implementation of a web page retrieval system. The program retrieves text from web pages and creates a local dictionary which is used as a pre-processed data structure to help score documents for a particular user query. When a query is entered, the program ranks the documents using a relevance judgment ranking function.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="logo-python"></ion-icon>
+                    </div>
+                </div>
+                <div id="project5" className="projects">
+                    <div className="edHead">Integrated Software Development</div>
+                    <div className="projectDesc">Following the TSP approach document by Carnegie Melon department of Computer Science Engineering enabled me to experience software production in real-life software products and services. Under the supervision of TSP Coach, Prof. Philip L. Miller, the team worked on an issue associated with the front-end development of a website involving HTML, CSS, JS, React and other front-end libraries.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <ion-icon name="logo-javascript"></ion-icon>
+                        <ion-icon name="logo-react"></ion-icon>
+                    </div>
+                </div>
+                <div id="project2" className="projects">
+                    <div className="edHead">Textual and Sentiment Analysis</div>
+                    <div className="projectDesc">To understand how beliefs and common practices have evolved with time and further analyse different aspects of divinity, used IBM WATSON tone analyser API to get different average emotion scores for different texts belonging to different religions, scientific texts, novels etc.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="logo-python"></ion-icon>
+                        <ion-icon name="analytics-outline"></ion-icon>
+                    </div>
+                </div>
+                <div id="project7" className="projects">
+                    <div className="edHead">Face Morphing - Image Processing</div>
+                    <div className="projectDesc">Implementation of different algorithms like the Delaunay Triangulation helped me understand pixel transformation and translations. Performed face morphing combining different techniques of the course.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="contrast-outline"></ion-icon>
+                        <ion-icon name="logo-python"></ion-icon>
+                    </div>
+                </div>
+                <div id="project3" className="projects">
+                    <div className="edHead">Information Visualization: COVID</div>
+                    <div className="projectDesc">Worked with the d3 library of JavaScript to represent different trends related to COVID-19, using publicly available datasets to draw inferences and observe patterns.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="logo-python"></ion-icon>
+                    </div>
+                </div>
+                <div id="project4" className="projects">
+                    <div className="edHead">Social Network Analysis</div>
+                    <div className="projectDesc">Using the network library of Python, performed a thorough analysis of datasets of real networks (High Energy Citation Network and Reddit Hyperlink Network), plotted graphs to observe trends and patterns, and calculated different centrality measures to draw inferences about the networks.</div>
+                    <div className="projectIcons">
+                        <ion-icon name="logo-python"></ion-icon>
+                        <ion-icon name="analytics-outline"></ion-icon>
+                    </div>
+                </div>
+                <div id="project6" className="projects">
+                    <div className="edHead">California House Price and Predictions</div>
+                    <div className="projectDesc">Using Data Analysis Techniques on a data set of Houses in California, learnt -Introduction to Machine Learning -Data operations like cleaning, filtering, and transforming data -Visualization and correlating data attributes using different graphical methods</div>
+                    <div className="projectIcons">
+                    </div>
+                </div>
+                
+                
+                </div>
             </div>
         </div>
     )

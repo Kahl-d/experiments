@@ -201,7 +201,57 @@ div img{
     width: 30%;
     height: 100%;
     border-radius: 1em 1em 0 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll visible;
+
+    position: relative;
 }
+
+#grad{
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    background: rgb(255,255,255);
+}
+
+
+
+
+::-webkit-scrollbar {
+    -webkit-appearance:caret;
+    width: 10px;
+  }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: rgba(0,0,0,.5);
+    }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  }
+
+.projects{
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ion-icon{
+    font-size: 3em;
+}
+
+
+
 
 .img1{
     max-height: 50px;
