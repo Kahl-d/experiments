@@ -1,0 +1,38 @@
+/* src/components/ProfilePicture.css */
+.profile-picture {
+  text-align: right; /* Align the image and button to the right */
+  margin: 20px;
+  position: relative;
+}
+
+.image-container {
+  position: relative; /* Ensure relative positioning for the container */
+  display: inline-block; /* Display the image and button in-line */
+}
+
+.profile-image {
+  width: 160px; /* Set the width and height to your desired size */
+  height: 160px;
+  border-radius: 50%; /* Create a circular shape */
+  border: 5px solid #fff; /* Add a white border for better visibility */
+  overflow: hidden; /* Hide any content that overflows the circular shape */
+}
+
+.upload-button {
+  cursor: pointer;
+  color: #007bff; /* Change color as needed */
+  text-decoration: none; /* Remove underline */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 8px 16px; /* Add padding to the button */
+  border-radius: 4px; /* Add button border radius */
+  display: block; /* Display the button as a block element to position it below the image */
+  margin-top: 10px; /* Add space between the image and the button */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.upload-button:hover {
+  background-color: #014623; /* Change background color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}

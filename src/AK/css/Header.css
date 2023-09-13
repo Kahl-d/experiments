@@ -1,0 +1,53 @@
+/* src/components/Header.css */
+
+.button:hover {
+    background-color: #ff0000; /* Change to your hover effect */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: rgba(30, 42, 95, 0.432);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    overflow: hidden;
+    
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    overflow: hidden;
+    
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent line breaks in the typing animation */
+    margin: 0;
+    position: relative;
+    animation: typing 3s steps(30) forwards; /* Typing animation */
+}
+
+.profile-picture {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+/* Typing animation */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

@@ -1,0 +1,105 @@
+.sidebar {
+  width: 200px;
+  background-color:rgba(18, 71, 75, 0.438);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  transition: width 0.3s; /* Add transition for smooth animation */
+  padding-top: 20px; /* Add some padding at the top */
+  height: 100%;
+  width:14%;
+}
+
+.sidebar.collapsed {
+  width: 10%; /* Adjust the width as desired when collapsed */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 15px; /* Increase padding for better spacing */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.sidebar li:hover {
+  background-color: skyblue;
+
+}
+
+/* Active link style */
+.sidebar .active {
+  background-color: #007bff;
+  font-weight: bold;
+}
+
+/* Add a separator line between menu items */
+.sidebar li:not(:last-child) {
+  border-bottom: 1px solid #555;
+}
+.sidebar-title{
+  align-items: center;
+  color: white;
+  justify-content: center;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+}
+
+/* Main content styles */
+.main-content {
+  margin-left: 200px; /* Adjust to match the sidebar width */
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #007bff;
+  color:black;
+  padding: 20px;
+}
+
+.bio-card {
+  background-color:rebeccapurple;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  margin: 20px 0;
+}
+
+/* Example styles for Intro component */
+.intro-content {
+  padding: 20px;
+}
+
+/* Example styles for Contact component */
+.Contact-container {
+  padding: 20px;
+}
+
+
+.App {
+  text-align: relative;
+  font-family: Arial, sans-serif; /* Change the font-family */
+  min-height: 100vh;
+  min-width: 80vh;
+  display: flex;
+  flex-direction: column;
+  color: #333; /* Change the text color */
+  background-size: cover; /* Cover the entire screen */
+  background-position: center; /* Center the background image */
+  background-color: rgba(4, 72, 160, 0.534); /* Semi-opaque background color */
+}
+

@@ -1,0 +1,148 @@
+#aboutUsContainer{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ECDDD;
+    color: #FFFADD;
+
+    
+    
+
+}
+
+.linklink{
+    text-emphasis: none;
+    text-decoration: none;
+    color: #FFFADD;
+   
+}
+
+p{
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+#meet{
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+
+#aboutUsTeam{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.teamMember{
+    flex-grow: 1;
+    overflow: hidden;
+    border: 1px solid #FFFADD;
+    margin: 0.1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.teamMember div{
+    text-decoration: none !important;
+}
+
+.teamMemberHeader{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerRight{
+    flex-grow: 1;
+}
+
+.teamMemberContent{
+    display: none;
+    height: 0px !important;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.teamMember:hover{
+    flex-grow: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    transition: color background-color 0.1s ease !important;
+
+    .teamMemberHeader{
+        min-height: 40%;
+    }
+
+    .teamMemberContent{
+        display: block;
+        height: 60%;
+        max-width: 100%;
+    }
+
+}
+
+.teamMemberName{
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.teamMemberRole{
+    font-size: 0.9rem;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    p{
+        font-size: 0.8rem;
+    }
+
+    #meet{
+        font-size: 1rem;
+    }
+
+  
+
+    #aboutUsTeam{
+        height: 40%;
+    }
+
+    .teamMemberHeader{
+        height: 30%;
+    }
+
+    
+    .teamMemberName{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .teamMemberRole{
+        font-size: 0.5rem;
+    }
+
+    .teamMemberContent{
+        font-size: 0.5rem;
+        height: 50%;
+    }
+   
+
+
+
+
+}
+
+
+
+
+

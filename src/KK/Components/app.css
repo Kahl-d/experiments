@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* transition: all 0.5s ease; */
+}
+
+
+#homeContainer{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #8ECDDD;
+    
+}
+
+#homeHeader{
+    width: 100% ;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #FFFADD;
+    position: fixed;
+    top: 0;
+
+}
+
+
+#navLinks{
+    width: 20% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    color: #FFFADD;
+    font-size: 1.2rem;
+}
+
+.navBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ion-icon{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+#comingSoonPost{
+    width: 40%;
+    height: 20%;
+    background-color: #FFFADD;
+    color: black;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
+}
+
+
+.postTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    border-top: 1px solid black;
+    
+}
+.postDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.postAltText{
+    width: 100%;
+    font-size: 0.6rem;
+}
+
+.postContent{
+    width: 100%;
+    flex-grow: 4;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    /* margin: 1rem; */
+}
+
+
+@media screen and (max-width: 768px){
+    #comingSoonPost{
+        width: 80%;
+    }
+
+    #navLinks{
+        min-width: 40%;
+    }
+    
+    .links{
+        text-decoration: none;
+        color: #FFFADD;
+        font-size: 1rem;
+    }
+    
+    .navBtns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    ion-icon{
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+}
+    
+
+

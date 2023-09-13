@@ -1,0 +1,47 @@
+/*  */
+  
+  /* src/components/Bio.css */
+
+  .intro-card {
+    background-color: palegoldenrod; /* Background color */
+    color: #333; /* Text color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Maximum width for larger screens */
+    height: auto; /* Allow the card's height to adjust based on content */
+    position: relative;
+    font-family: cursive; /* Change to your preferred font */
+    animation: slide-in 1s ease-in-out; 
+    background-color:palegoldenrod;
+  }
+  
+  h2{
+    text-align: center;
+    color: #007bff; /* Header text color */
+  }
+  
+  .intro-content {
+    padding: 10px;
+    font-size: large;
+    line-height: 1.6;
+  }
+  
+  /* .intro-content p {
+    margin-bottom: 20px;
+  } */
+
+@keyframes slide-in {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); /* Slide in from the right */
+      opacity: 1;
+    }
+  }
+  
+  

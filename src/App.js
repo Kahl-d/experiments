@@ -1,15 +1,21 @@
 import React from "react";
-import Portfolio from "./Components/Portfolio";
-
-// import Jigsaw from "./Components/Jigsaw";
-
-const App = ()=>{
+// import Port from "./Components/Port";
+import './KK/Components/app.css';
+import Home from "./KK/Components/Home";
 
 
-    return(
-        <Portfolio />
-        // <Projects />
+
+const App = () => {
+
+    return (
+     
+         
+        <Home/>
+   
+       
+        
     );
-};
+    };
 
-export default App;
+
+    export default App;
