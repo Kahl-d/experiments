@@ -26,8 +26,8 @@ const Home = () => {
             <div className="postTitle">
             <ion-icon name="happy-outline"></ion-icon>
             <div className="postDetails">
-            <div className="postName">Khalid M.</div>
-            <div className="postAltText">M.S. Data Science Artificial Intelligence</div>
+            <div className="postName">@csc848T03</div>
+            <div className="postAltText">Software Engineer</div>
 
             </div>
             

@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../Pages/kk.css'
+import './kk.css'
 
 
 const Khalid = () => {
     return(
         <div id="portfolioContainer">
                 <div id="portfolioLeft">
-                    <div id="portfolioLeftTop">
+                    <Link id="portfolioLeftTop" to={"/"}>
+                    {/* <div id="portfolioLeftTop"> */}
                     <ion-icon name="push-outline"></ion-icon>
                     <ion-icon name="footsteps-outline"></ion-icon>
-
-                    </div>
+                    <span>CSC 848*</span>
+                    {/* </div> */}
+                    </Link>
 
                     <div id="portfolioLeftBottom1">
                     <div className="edHead">Education</div>
@@ -60,7 +62,7 @@ const Khalid = () => {
                 </div>
                 <div id="portfolioMiddle">
                     <div id="projectsHeader">
-                        <div>Skills</div>
+                        <div className="kHeaders">Skills</div>
                         <div id="projectsMiddle">
                         <ion-icon name="logo-html5"></ion-icon>
                         <ion-icon name="logo-css3"></ion-icon>
@@ -71,7 +73,7 @@ const Khalid = () => {
                     </div>
                     </div>
                     
-                    <div id="projectsMiddle2">Projects</div>
+                    <div id="projectsMiddle2" className="kHeaders">Projects</div>
                     <div id="projectsBottom">
                     <div className="project">
                         <div className="projectHeader">

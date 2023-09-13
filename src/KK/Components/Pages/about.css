@@ -13,35 +13,48 @@
 
 }
 
-.linklink{
-    text-emphasis: none;
-    text-decoration: none;
-    color: #FFFADD;
-   
-}
 
 p{
     margin: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 0 1rem;
 }
 
 #meet{
     font-size: 1.5rem;
     margin-top: 0.2rem;
+    margin-bottom: 0;;
 }
 
 
 #aboutUsTeam{
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    height: 40%;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
+
+.linklink{
+    width: 40%;
+    height: 30%;
+    text-emphasis: none;
+    text-decoration: none;
+    color: #FFFADD;
+    margin: 0.5rem;
+   
+}
+
+#anishMember{
+    width: 81%;
+}
+
 .teamMember{
-    flex-grow: 1;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     border: 1px solid #FFFADD;
     margin: 0.1rem;

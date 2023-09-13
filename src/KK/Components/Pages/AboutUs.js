@@ -9,7 +9,10 @@ const AboutUs = () => {
     return( 
         <div id="aboutUsContainer">
         <div id="homeHeader">
+        <Link to={"/"} className="linklink">
+
         <ion-icon name="flower-outline"></ion-icon>
+        </Link>
         <div id="navLinks">
         
             <div className="navBtns">
@@ -79,7 +82,7 @@ const AboutUs = () => {
                 <div className="teamMemberContent">I am wild still very wise.</div>
             </div>
             </Link>
-            <Link className="linklink" to={"/AK"}>
+            <Link id="anishMember" className="linklink" to={"/AK"}>
             <div className="teamMember">
                 <div className="teamMemberHeader">
                     <ion-icon name="person-outline"></ion-icon>
